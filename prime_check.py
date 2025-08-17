@@ -7,5 +7,4 @@ def is_prime(n):
     return True
 
 num = int(input("Enter a number: "))
-
 print("Prime" if is_prime(num) else "Not Prime")
